@@ -2004,7 +2004,7 @@ blockquote {
       border-bottom-color: #555;
     }
     .archive-timeline-box::after, .tag-timeline-wrapper::after {
-      background: #eeeeee33;
+      background: #eeeeee4c;
     }h1, h2, h3, h4, h5, h6 {
       color: #555;
     }
@@ -2048,11 +2048,11 @@ blockquote {
       }.nav-item a:hover {
         color: #222;
       }.nav-item-active {
-      background: #f9f9f933;
+      background: #f9f9f94c;
     }
 
     .nav-item:hover {
-      background: #f9f9f933;
+      background: #f9f9f94c;
       color: rgba(0, 0, 0, 0.98);
     }.site-author-image {
       border-radius: 50%;
@@ -2063,7 +2063,14 @@ blockquote {
       transition-property: all;
       transition-duration: 59s;
       transition-timing-function: cubic-bezier(.34,0,.84,1);
-    }.markdownIt-TOC a {
+    }.pisces .blog-header, .gemini .blog-header {
+        right: 0;
+      }
+      .pisces .section-layout-wrapper, .gemini .section-layout-wrapper {
+        flex-direction: row-reverse !important;
+      }.pisces .sidebar, .gemini .sidebar {
+        right: 0;
+      }.markdownIt-TOC a {
       color: #212529;
       border-bottom-color: #212529;
     }.markdownIt-TOC a:hover {
@@ -2088,7 +2095,7 @@ blockquote {
       color: #fc6423;
       border-bottom-color: #fc6423;
     }.bg-color {
-      background-color: #ffffff33;
+      background-color: #ffffff4c;
     }
       .site-meta {
         background: #000 !important;
@@ -2097,13 +2104,17 @@ blockquote {
         background: #000 !important;
       }
     .brand {
-      background: #00000033;
+      background: #0000004c;
     }
-    .main-title {
+    
+      .brand {
+        font-weight: bold;
+        transform: scale(1);
+      }.main-title {
       color: #FFF;
     }
     .mist .site-title i {
-      background: #FFFFFF33;
+      background: #FFFFFF4c;
     }.box-shadow-wrapper {
       box-shadow: none !important;
     }
