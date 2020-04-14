@@ -2109,7 +2109,7 @@ blockquote {
     
       .brand {
         font-weight: bold;
-        transform: scale(1);
+        transform: scale(0.5);
       }.main-title {
       color: #FFF;
     }
