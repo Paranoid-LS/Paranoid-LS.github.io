@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Paranoid-LS.github.io</id>
     <title>Paranoid-LS的小窝</title>
-    <updated>2020-04-15T12:18:51.265Z</updated>
+    <updated>2020-04-15T12:32:07.681Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Paranoid-LS.github.io"/>
     <link rel="self" href="https://Paranoid-LS.github.io/atom.xml"/>
@@ -16,6 +16,26 @@
         <link href="https://Paranoid-LS.github.io/post/github-pages-gridea-da-jian-bo-ke-fang-fa/">
         </link>
         <updated>2020-04-15T02:06:12.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="利用-github-gridea-搭建博客">利用 Github + Gridea 搭建博客</h1>
+<h2 id="准备工作">准备工作</h2>
+<ul>
+<li>注册 Github 账号<br>
+官网：https://github.com/</li>
+<li>下载 Girdea<br>
+官网：https://gridea.dev/<br>
+本文以 Gridea 0.9.2（Windows） 版本示例</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="利用-github-gridea-搭建博客">利用 Github + Gridea 搭建博客</h1>
+<h2 id="准备工作">准备工作</h2>
+<ul>
+<li>注册 Github 账号<br>
+官网：https://github.com/</li>
+<li>下载 Girdea<br>
+官网：https://gridea.dev/<br>
+本文以 Gridea 0.9.2（Windows） 版本示例</li>
+</ul>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[动态规划类型选讲]]></title>
@@ -23,5 +43,17 @@
         <link href="https://Paranoid-LS.github.io/post/dong-tai-gui-hua-lei-xing-xuan-jiang/">
         </link>
         <updated>2020-04-14T11:28:15.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="数据结构优化dp">数据结构优化DP​</h1>
+<h2 id="引言">引言</h2>
+<p>在状态转移过程中, 我们通常需要在某个区间范围内进行择优, 选出最佳决策点.</p>
+<p>而数据结构通常可以维护出转移的最优决策.</p>
+<p>数据结构优化<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>D</mi><mi>P</mi></mrow><annotation encoding="application/x-tex">DP</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span></span></span></span>的实质为<strong>优化&quot;转移&quot;</strong>.</p>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="数据结构优化dp">数据结构优化DP​</h1>
+<h2 id="引言">引言</h2>
+<p>在状态转移过程中, 我们通常需要在某个区间范围内进行择优, 选出最佳决策点.</p>
+<p>而数据结构通常可以维护出转移的最优决策.</p>
+<p>数据结构优化<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>D</mi><mi>P</mi></mrow><annotation encoding="application/x-tex">DP</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span></span></span></span>的实质为<strong>优化&quot;转移&quot;</strong>.</p>
+]]></content>
     </entry>
 </feed>
