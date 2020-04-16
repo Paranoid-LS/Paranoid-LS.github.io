@@ -8,7 +8,7 @@
 <meta name="description" content="愿你坚强到可以独自面对风雨，到最后仍有人陪着颠沛流离。">
 <meta name="theme-color" content="#000">
 <title>2020.4.16 省选模拟试题 T2 哈密顿回路 折半搜索 + meet in the middle | Paranoid-LS的小窝</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1587022342841">
+<link rel="shortcut icon" href="/favicon.ico?v=1587022466358">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/media/css/pisces.css">
 
@@ -510,7 +510,7 @@ window.addEventListener('load', function() {
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>1111<span class="pc-show">字数</span></span>
+      <span>1114<span class="pc-show">字数</span></span>
     </span>
     
       
@@ -571,7 +571,7 @@ window.addEventListener('load', function() {
 时间复杂度：<br>
 设一半点数为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi></mrow><annotation encoding="application/x-tex">d</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">d</span></span></span></span>，则搜索状态总数为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi><mo>(</mo><mi>n</mi><mo separator="true">,</mo><mi>d</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">A(n,d)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">A</span><span class="mopen">(</span><span class="mord mathdefault">n</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">d</span><span class="mclose">)</span></span></span></span> ≈ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>17297280</mn></mrow><annotation encoding="application/x-tex">17297280</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">7</span><span class="mord">2</span><span class="mord">9</span><span class="mord">7</span><span class="mord">2</span><span class="mord">8</span><span class="mord">0</span></span></span></span><br>
 合并的复杂度为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mn>2</mn><mi>d</mi></msup><mo>∗</mo><mi>n</mi><mo>∗</mo><msup><mn>2</mn><mi>d</mi></msup></mrow><annotation encoding="application/x-tex">2^{d} * n * 2^{d}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.849108em;vertical-align:0em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.849108em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">d</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.46528em;vertical-align:0em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.849108em;vertical-align:0em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.849108em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">d</span></span></span></span></span></span></span></span></span></span></span></span> ≈ <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>196608</mn></mrow><annotation encoding="application/x-tex">196608</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">9</span><span class="mord">6</span><span class="mord">6</span><span class="mord">0</span><span class="mord">8</span></span></span></span><br>
-加上剪枝即可</p>
+搜索时加上剪枝即可</p>
 <h2 id="code">code</h2>
 <pre><code class="language-cpp">#include &lt;iostream&gt;
 #include &lt;cstdio&gt;
