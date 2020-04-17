@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Paranoid-LS.github.io</id>
     <title>Paranoid-LS的小窝</title>
-    <updated>2020-04-17T00:36:55.321Z</updated>
+    <updated>2020-04-17T06:55:00.577Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Paranoid-LS.github.io"/>
     <link rel="self" href="https://Paranoid-LS.github.io/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://Paranoid-LS.github.io/images/avatar.png</logo>
     <icon>https://Paranoid-LS.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Paranoid-LS的小窝</rights>
+    <entry>
+        <title type="html"><![CDATA[ P4401 [IOI2007]Miners 矿工配餐 动态规划]]></title>
+        <id>https://Paranoid-LS.github.io/post/p4401-ioi2007miners-kuang-gong-pei-can-dong-tai-gui-hua/</id>
+        <link href="https://Paranoid-LS.github.io/post/p4401-ioi2007miners-kuang-gong-pei-can-dong-tai-gui-hua/">
+        </link>
+        <updated>2020-04-17T06:38:40.000Z</updated>
+        <summary type="html"><![CDATA[<h3 id="题目描述">题目描述</h3>
+<p>现有两个煤矿，每个煤矿都雇用一组矿工。采煤工作很辛苦，所以矿工们需要良好饮食。每当一辆食品车到达煤矿时，矿工们便会产出一定数量的煤。<br>
+有三种类型的食品车：肉车，鱼车和面包车。 矿工们喜欢变化的食谱。如果提供的食品能够不断变化，他们的产煤量将会增加。每当一个新的食品车到达煤矿时，矿工们就会比较这种新的食品和前两次（或者少于两次，如果前面运送食品的次数不足两次）的食品，并且：</p>
+]]></summary>
+        <content type="html"><![CDATA[<h3 id="题目描述">题目描述</h3>
+<p>现有两个煤矿，每个煤矿都雇用一组矿工。采煤工作很辛苦，所以矿工们需要良好饮食。每当一辆食品车到达煤矿时，矿工们便会产出一定数量的煤。<br>
+有三种类型的食品车：肉车，鱼车和面包车。 矿工们喜欢变化的食谱。如果提供的食品能够不断变化，他们的产煤量将会增加。每当一个新的食品车到达煤矿时，矿工们就会比较这种新的食品和前两次（或者少于两次，如果前面运送食品的次数不足两次）的食品，并且：</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[P3177 [HAOI2015]树上染色 树形dp]]></title>
         <id>https://Paranoid-LS.github.io/post/p3177-haoi2015shu-shang-ran-se-shu-xing-dp/</id>
